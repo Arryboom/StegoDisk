@@ -21,8 +21,9 @@ addons:
     update: true
     sources:
     - sourceline: "ppa:ubuntu-toolchain-r/test" #Hack for 18.04
+    - sourceline: "ppa:llvm-toolchain-bionic-9"
     # - ubuntu-toolchain-r-test
-    - llvm-toolchain-bionic-9
+    # - llvm-toolchain-bionic-9
     packages:
     - gcc-9
     - g++-9
