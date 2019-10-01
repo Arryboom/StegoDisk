@@ -20,7 +20,8 @@ addons:
   apt:
     update: true
     sources:
-    - ubuntu-toolchain-r-test
+    - sourceline: "ppa:ubuntu-toolchain-r/test" #Hack for 18.04
+    # - ubuntu-toolchain-r-test
     - llvm-toolchain-bionic-9
     packages:
     - gcc-9
